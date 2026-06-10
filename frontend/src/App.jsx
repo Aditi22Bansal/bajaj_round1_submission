@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/graph";
+const API_URL = "https://bajaj-round1-backend.onrender.com";
 
 function App() {
   const [input, setInput] = useState("A->B, A->C, B->D");
